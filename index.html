@@ -1,0 +1,181 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Alex Sandr</title>
+  </head>
+  <body>
+    <header class="header">
+      <img src="avatar.jpg" alt="FOTO" class="avatar" />
+      <h1 class="header__title">All_Bost_On</h1>
+      <h2 class="header__subtitle">Frontend Developer</h2>
+    </header>
+
+    <main class="skills">
+      <section>
+        <h3>Skills</h3>
+        <details>
+          <summary>Skills list</summary>
+
+          <ol>
+            <li>✓ HTML</li>
+            <li>✓ CSS</li>
+            <li>✓ JavaScript</li>
+            <li>✓ React</li>
+            <li>✓ TypeScript</li>
+          </ol>
+        </details>
+      </section>
+
+      <article class="article">
+        <h4>Short article about me</h4>
+
+        <p>
+          Далеко-далеко за словесными горами в стране гласных и согласных живут,
+          рыбные тексты. Предложения запятой свое взгляд подзаголовок вопроса
+          за, напоивший грамматики однажды, ручеек пор рыбного. Над но большой
+          рыбного ipsum предупреждал, последний имеет заглавных продолжил океана
+          подзаголовок проектах своих послушавшись текстами собрал
+          переписывается ты lorem дорогу грамматики выйти скатился грустный свой
+          повстречался.
+        </p>
+      </article>
+
+      <section class="gallery">
+        <h3>Gallery</h3>
+        <img src="https://placehold.co/250x250" alt="placehold.co" />
+        <img src="https://placehold.co/250x250" alt="placehold.co" />
+        <img src="https://placehold.co/250x250" alt="placehold.co" />
+      </section>
+
+      <hr class="separator" />
+
+      <section>
+        <iframe
+          class="video"
+          src="https://www.youtube.com/embed/rhLy5LBj1kU"
+          title="Тихоокеанский Северо-Запад - Красивая природа штата Вашингтон"
+          allow="
+            accelerometer;
+            autoplay;
+            clipboard-write;
+            encrypted-media;
+            gyroscope;
+            picture-in-picture;
+            web-share;
+          "
+          referrerpolicy="strict-origin-when-cross-origin"
+          allowfullscreen
+        ></iframe>
+      </section>
+
+      <section class="hobbies">
+        <h4>My hobbies</h4>
+
+        <details>
+          <summary>Hobbies</summary>
+
+          <ul>
+            <li>Skiing</li>
+            <li>Video editing</li>
+            <li>Audio books</li>
+          </ul>
+        </details>
+      </section>
+
+      <hr class="separator" />
+
+      <section class="ed">
+        <table class="ed__table">
+          <thead>
+            <tr>
+              <th>School / University</th>
+              <th>Profession</th>
+              <th>Year</th>
+            </tr>
+          </thead>
+
+          <tbody>
+            <tr>
+              <td>IT school 1</td>
+              <td>React Dev</td>
+              <td>2019</td>
+            </tr>
+            <tr>
+              <td>IT school 2</td>
+              <td>Angular Dev</td>
+              <td>2020</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+
+      <section class="quote">
+        <blockquote>Действие - это единственный путь к успеху</blockquote>
+      </section>
+
+      <section class="interaction">
+        <form action="https://ya.ru" method="get" target="_blank" class="form">
+          <fieldset>
+            <legend>Required fields</legend>
+            <div>
+              <label for="firstNameId">First Name:</label>
+              <input
+                type="text"
+                name="firstName"
+                id="firstNameId"
+                required
+                class="form__control"
+                placeholder="First Name"
+              />
+            </div>
+
+            <div>
+              <label for="lastNameId">Last Name:</label>
+              <input
+                type="text"
+                name="lastName"
+                id="lastNameId"
+                required
+                class="form__control"
+                placeholder="Last Name"
+              />
+            </div>
+
+            <div>
+              <label for="email-Id">Email:</label>
+              <input
+                type="email"
+                name="email"
+                class="email"
+                id="email-Id"
+                required
+                placeholder="Email"
+              />
+            </div>
+          </fieldset>
+          <br />
+
+          <textarea
+            name="question"
+            cols="30"
+            rows="7"
+            placeholder="your questions"
+          ></textarea>
+          <br />
+          <button type="submit" class="form__submit">Submit</button>
+        </form>
+      </section>
+    </main>
+    <hr class="separator" />
+    <footer>
+      <address>
+        <a href="mailto:it@mail.ru">it@mail.ru</a>
+        <br /><br />
+        <a href="tel:+79999999999">+79999999999</a>
+      </address>
+    </footer>
+  </body>
+</html>
